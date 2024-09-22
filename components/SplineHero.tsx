@@ -1,6 +1,6 @@
 "use client";
+// @ts-ignore
 import Spline from "@splinetool/react-spline/next";
-import React, { Suspense } from "react";
 
 // Spline design credits due to @mkhtr7
 // https://app.spline.design/@mkhtr7
