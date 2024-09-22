@@ -1,9 +1,6 @@
 {
   "extends": "next/core-web-vitals",
-
-  // for apostrophe error
   "rules": {
     "react/no-unescaped-entities": 0
-  },
-
+  }
 }
