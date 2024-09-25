@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/Header";
 import "./globals.css";
 import { Inter, Jost } from "next/font/google";
