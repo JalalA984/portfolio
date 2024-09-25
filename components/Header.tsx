@@ -36,12 +36,12 @@ export default function Header() {
     <div>
       <header className="z-[999] relative w-full flex justify-center">
         <motion.div
-          className="fixed top-8 w-full max-w-[36rem] rounded-[16px] bg-[rgba(220, 232, 255, 0.27)] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[8.8px] flex items-center justify-center px-4"
+          className="fixed top-4 sm:top-8 w-full max-w-[36rem] rounded-[16px] bg-[rgba(220, 232, 255, 0.27)] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[8.8px] flex items-center justify-center px-2 sm:px-4 py-2"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
         >
           <nav className="flex w-full justify-center">
-            <ul className="flex items-center justify-center gap-6 text-[0.9rem] font-medium text-gray-700">
+            <ul className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-[0.8rem] sm:text-[0.9rem] font-medium text-gray-700">
               {links.map((link, idx) => (
                 <motion.li
                   key={link.hash}
@@ -56,10 +56,10 @@ export default function Header() {
                   >
                     <Link
                       href={link.hash}
-                      className="flex flex-col items-center justify-center w-12 h-12 hover:text-gray-950 transition"
+                      className="flex flex-col items-center justify-center w-10 h-10 sm:w-12 sm:h-12 hover:text-gray-950 transition"
                     >
                       {getIcon(link.name)}
-                      <span className="text-xs mt-1">{link.name}</span>
+                      <span className="text-[10px] sm:text-xs mt-1">{link.name}</span>
                     </Link>
                   </motion.div>
                 </motion.li>
