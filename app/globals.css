@@ -86,3 +86,33 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+  .responsive-spline {
+    width: 100%;
+    height: 100%;
+    transform: scale(1); /* Default scale for larger screens */
+  }
+
+  @media (max-width: 1024px) {
+    .responsive-spline {
+      transform: scale(0.9); /* Slightly smaller on tablets */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .responsive-spline {
+      transform: scale(0.8); /* Smaller on small tablets */
+    }
+  }
+
+  @media (max-width: 640px) {
+    .responsive-spline {
+      transform: scale(0.7); /* Much smaller on mobile */
+    }
+  }
+
+  @media (max-width: 400px) {
+    .responsive-spline {
+      transform: scale(0.7); /* Even smaller for extra small mobile screens */
+    }
+  }
