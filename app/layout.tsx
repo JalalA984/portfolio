@@ -2,7 +2,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Header from "@/components/Header";
 import "./globals.css";
 import { Inter, Jost } from "next/font/google";
-import Footer from "@/components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 const jost = Jost({ subsets: ["latin"] });
@@ -23,6 +23,7 @@ export default function RootLayout({
       <body className={`${jost.className}`}>
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   );
