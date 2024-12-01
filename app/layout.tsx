@@ -32,7 +32,7 @@ export default function RootLayout({
 
 */
 
-
+"use client";
 import { Analytics } from "@vercel/analytics/react";
 import Header from "@/components/Header";
 import "./globals.css";
