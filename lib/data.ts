@@ -44,7 +44,7 @@ export const projectsData = [
       "An activity generator application that integrates with the ‘BoredAPI’. Users can log in, generate activities, and track past activity history in a NoSQL database.",
     tags: ["Node.js", "API", "Express.js", "MongoDB", "HTML/CSS", "Templating (EJS)"],
     imageUrl: boredomBuddyImg,
-    githubUrl: "https://github.com/JalalA984/BoredomBuddyV2"
+    githubUrl: "https://boredombuddyv2.onrender.com/"
   },
 ] as const;
 
