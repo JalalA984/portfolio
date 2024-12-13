@@ -1,5 +1,6 @@
 import recipeAppImg from "@/public/recipeApp.png";
 import boredomBuddyImg from "@/public/boredombuddy.png";
+import navinewsImg from "@/public/navinews.png";
 
 export const links = [
   {
@@ -31,6 +32,14 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "NaviNews",
+    description:
+      "A web application that integrates with the ‘NewsAPI’, allowing users to explore current world news and save their interests and articles for easy access later.",
+    tags: ["Python Flask", "API", "MongoDB", "Docker", "TailwindCSS"],
+    imageUrl: navinewsImg,
+    githubUrl: "https://navinews.onrender.com/"
+  },
+  {
     title: "Recipe App",
     description:
       "Application allows users to securely register, log in, and perform CRUD operations on personal and community recipe collections.",
@@ -46,6 +55,7 @@ export const projectsData = [
     imageUrl: boredomBuddyImg,
     githubUrl: "https://boredombuddyv2.onrender.com/"
   },
+
 ] as const;
 
 export const skillsData = [
