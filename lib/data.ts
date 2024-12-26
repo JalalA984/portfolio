@@ -1,6 +1,7 @@
 import recipeAppImg from "@/public/recipeApp.png";
 import boredomBuddyImg from "@/public/boredombuddy.png";
 import navinewsImg from "@/public/navinews.png";
+import novaImg from "@/public/nova.png";
 
 export const links = [
   {
@@ -31,6 +32,14 @@ export const links = [
 
 
 export const projectsData = [
+  {
+    title: "DevHorizonNova",
+    description:
+      "A RAG-powered chatbot built for tech enthusiasts, providing insights into tech stacks, companies, and required technical skills, empowering users to achieve their career goals.",
+    tags: ["LangChain", "OpenAI", "GoogleGemini", "AstraDB", "Next.js"],
+    imageUrl: novaImg,
+    githubUrl: "https://github.com/JalalA984/rag-chatbot"
+  },
   {
     title: "NaviNews",
     description:
