@@ -80,18 +80,6 @@ export default function Intro() {
         href="/resume_jalal.pdf" download>
           Download Resume <HiDownload className="group-hover:translate-y-1 transition"/>{" "}
         </a>
-
-        <a className="flex items-center bg-white text-gray-700 p-4 gap-1 rounded-full
-        focus:scale-110 hover:scale-[1.25] active:scale-105 transition cursor-pointer"
-        href="https://www.linkedin.com/in/jalalahm/" target="_blank">
-          <BsLinkedin />
-        </a>
-
-        <a className="flex items-center bg-white text-gray-700 p-4 gap-1 rounded-full
-        focus:scale-110 hover:scale-[1.25] active:scale-105 transition cursor-pointer"
-        href="https://github.com/JalalA984/" target="_blank">
-          <BsGithub />
-        </a>
       </motion.div>
     </section>
   );
