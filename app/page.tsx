@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 import Technologies from "@/components/Technologies";
 import Header from "@/components/Header";
 
+
 const SplineHero = dynamic(
   () => import("../components/SplineHero.tsx").then((mod) => mod.default),
   {
