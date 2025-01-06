@@ -12,7 +12,7 @@ export default function Intro() {
     <section id="home" className="">
       <CardContainer containerClassName="intro-container" className="intro-card">
         {/* Ensure CardBody is full width and height, center its content */}
-        <CardBody className="bg-gradient-to-r from-gray-100 via-gray-200 to-white bg-opacity-50 backdrop-blur-2xl shadow-2xl rounded-lg p-6 text-gray-800 max-w-[90vw] sm:max-w-[50vw] h-[calc(100vh-4rem)] flex flex-col items-center justify-center overflow-y-auto">
+        <CardBody className="bg-gradient-to-r from-gray-100 via-gray-200 to-white bg-opacity-50 backdrop-blur-2xl shadow-2xl rounded-lg p-6 text-gray-800 max-w-[90vw] sm:max-w-[50vw] h-[calc(100vh-4rem)] flex flex-col items-center justify-center overflow-y-auto h-screen">
           {/* Center the image and peace sign */}
           <CardItem className="flex flex-col items-center justify-center mb-6">
             <motion.div
