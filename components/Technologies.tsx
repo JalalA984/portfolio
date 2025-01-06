@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { skillsData } from '@/lib/data'
+import { techData } from '@/lib/data'
 import Skill from "./Skill";
 import SectionHeading from "./SectionHeading";
 type Props = {};
 
-function Skills({}: Props) {
+function Technologies({}: Props) {
   return (
     <div className="mb-28 scroll-m-28" id="skills">
-        <SectionHeading>Languages</SectionHeading>
+        <SectionHeading>Technologies</SectionHeading>
       <motion.div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
@@ -17,7 +17,7 @@ function Skills({}: Props) {
       >
         <div className="grid grid-cols-4 gap-5">
         {
-                skillsData.map((skill, idx) => (
+                techData.map((skill, idx) => (
                     <React.Fragment key={idx}>
                     <Skill {...skill}/>
                     </React.Fragment>
@@ -31,4 +31,4 @@ function Skills({}: Props) {
   );
 }
 
-export default Skills;
+export default Technologies;

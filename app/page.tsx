@@ -9,6 +9,8 @@ import SectionDivider from "@/components/SectionDivider";
 import Contact from "@/components/Contact";
 import Coursework from "@/components/Coursework";
 import Footer from "@/components/Footer";
+import Technologies from "@/components/Technologies";
+import Header from "@/components/Header";
 
 const SplineHero = dynamic(
   () => import("../components/SplineHero.tsx").then((mod) => mod.default),
@@ -24,6 +26,8 @@ export const metadata = {
 
 export default function Home() {
   return (
+    <>
+    <Header/>
     <main className="h-screen">
       <SplineHero />
       <section className="flex flex-col justify-center items-center mx-auto my-auto">
@@ -33,11 +37,13 @@ export default function Home() {
           <About />
           <Projects />
           <Skills />
+          <Technologies/>
           <Coursework />
           <Contact />
           <Footer />
         </div>
       </section>
     </main>
+    </>
   );
 }

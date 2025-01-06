@@ -22,7 +22,6 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <meta name="google-site-verification" content="v829dSTXwEV9h8r-X5IMslqf6gBhpzbfPT2T_UkzJXY" />
       <body className={`${jost.className}`}>
-        <Header />
         {children}
         <Analytics />
       </body>

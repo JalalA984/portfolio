@@ -12,6 +12,7 @@ import {
   MailIcon,
 } from "@heroicons/react/solid"; // Import icons
 
+
 export default function Header() {
   const getIcon = (name: string) => {
     switch (name) {
