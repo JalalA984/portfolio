@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { skillsData } from "@/lib/data";
-import Image from "next/image";
 
-type SkillProps = (typeof skillsData)[number];
+type SkillProps = {
+  name: string;
+  percentage: string;
+  imageUrl: string;
+};
 
 function Skill({ name, percentage, imageUrl }: SkillProps) {
   return (
