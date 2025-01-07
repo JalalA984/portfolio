@@ -9,7 +9,7 @@ type Props = {};
 function Technologies({}: Props) {
   return (
     <div className="mb-28 scroll-m-28" id="skills">
-        <SectionHeading>Technologies</SectionHeading>
+        <SectionHeading>Technologies + Interests</SectionHeading>
       <motion.div className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center"
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}

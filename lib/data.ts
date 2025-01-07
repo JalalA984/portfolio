@@ -112,7 +112,7 @@ export const skillsData = [
 
 export const techData = [
   {
-    name: "React/Next.js",
+    name: "Next.js",
     percentage: "70%",
     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
   },
@@ -127,15 +127,25 @@ export const techData = [
     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
   },
   {
-    name: "Docker",
-    percentage: "40%",
-    imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
-  },
-  {
     name: "Git",
     percentage: "50%",
     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
   },
+  {
+    name: "Docker",
+    percentage: "30%",
+    imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  },
+  {
+    name: "Spring",
+    percentage: "10%",
+    imageUrl: "  https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
+  },
+  {
+    name: "Flutter",
+    percentage: "5%",
+    imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
+  },   
 ] as const;
 
 export const coursesData = [

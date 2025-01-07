@@ -107,14 +107,14 @@ export default function Intro() {
               animate={{ opacity: 1, y: 0 }}
             >
               <span className="font-bold">Hello, I'm Jalal Ahmad.</span> I am an{" "}
-              <span className="font-bold">aspiring Software/ML Engineer</span>{" "}
+              <span className="font-bold">aspiring Software Engineer</span>{" "}
               currently studying{" "}
               <span className="font-bold">Computer Science</span> @{" "}
               <span className="font-bold">
                 University of Maryland-College Park
               </span>
               . I enjoy building{" "}
-              <span className="italic">full-stack software</span>!
+              <span className="italic">Full-Stack Software</span>!
             </motion.h1>
           </CardItem>
 

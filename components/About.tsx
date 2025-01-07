@@ -45,7 +45,7 @@ export default function About() {
             <SectionHeading>About Me</SectionHeading>
             <p className="mb-3 px-4 sm:px-8">
               After my first year as an undergrad, I discovered my passion for
-              programming through my experience with{" "}
+              software through my experience with{" "}
               <span className="font-medium text-black">
                 Java and Object-Oriented Design
               </span>
@@ -55,32 +55,32 @@ export default function About() {
               </span>{" "}
               and have since developed a particular interest in{" "}
               <span className="font-medium text-black">
-                full-stack applications
+                Full-Stack applications
               </span>{" "}
-              and a growing appreciation for{" "}
+              along with a growing appreciation for{" "}
               <span className="font-medium text-black">
-                Data Science, Machine Learning, and AI
+              Machine Learning, AI, and Computer Security
               </span>
               .{" "}
               <span className="italic text-black/80">
-                My favorite part of programming
+                My favorite part of development
               </span>{" "}
-              is exploring various programming languages and technologies. My
+              is exploring various programming languages and software technologies. My
               current core stack includes{" "}
               <span className="font-medium text-black">
-                Java, JavaScript/Node, Python, and MongoDB
+                Java, Node.js, Python, and MongoDB
               </span>
               . I am always eager to{" "}
               <span className="underline">test my limits</span> and tackle
               challenging tasks. I am currently developing my experience in{" "}
               <span className="font-medium text-black">
-                Go microservices and Data Science
+                Go/Java Microservices, AI Development, and Networking + Computer Security
               </span>
               .
             </p>
             <p className="text-black/80 px-4 sm:px-8">
               <span className="italic">When I'm not coding</span>, I love
-              binging TV shows, eating snacks, watching movies, exercising, and
+              binging TV shows and watching movies, exercising, and
               playing with my cat. Furthermore, I'm always on the lookout for
               the next challenge to push myself further.
             </p>

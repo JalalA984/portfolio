@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="mb-10 px-4 text-center text-gray-500">
-            <Link href="/">
+      <Link href="/">
       <Image
         src={logo}
         alt="logo"
