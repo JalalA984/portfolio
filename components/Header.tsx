@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <div>
-      <header className="z-[999] relative w-full flex justify-center">
+      <header className="z-[999] relative w-full flex justify-center ">
         <motion.div
           className="fixed top-4 sm:top-8 w-full max-w-[48rem] rounded-[16px] bg-[rgba(220, 232, 255, 0.27)] shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[8.8px] flex items-center justify-between px-4 py-2 sm:px-6 sm:py-3"
           initial={{ y: -100, opacity: 0 }}

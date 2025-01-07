@@ -58,7 +58,7 @@ export default function Intro() {
                 [240, 248, 255], // Alice blue
                 [176, 224, 230], // Powder blue
               ]}
-              dotSize={6} // Increased dot size to make pixels bigger
+              dotSize={3} // Increased dot size to make pixels bigger
               showGradient={false} // Set this to false for no gradient effect
             />
           )}
