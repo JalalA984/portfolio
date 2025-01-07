@@ -1,18 +1,68 @@
 "use client";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { SiGmail } from "react-icons/si";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
+import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect"; // Import the CanvasRevealEffect
 
 export default function Intro() {
+  const sectionRef = useRef(null);
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        // Check if the section is in the viewport
+        if (entry.isIntersecting) {
+          setIsInView(true);
+        } else {
+          setIsInView(false); // Reset when the section is out of view
+        }
+      },
+      {
+        threshold: 0.5, // Trigger when 50% of the section is in view
+      }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    // Clean up the observer when the component unmounts
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <section id="home" className="">
-      <CardContainer containerClassName="intro-container" className="intro-card">
+    <section id="home" className="relative" ref={sectionRef}>
+      <CardContainer
+        containerClassName="intro-container"
+        className="intro-card"
+      >
         {/* Ensure CardBody is full width and height, center its content */}
-        <CardBody className="bg-gradient-to-r from-gray-100 via-gray-200 to-white bg-opacity-50 backdrop-blur-2xl shadow-2xl rounded-lg p-6 text-gray-800 max-w-[90vw] sm:max-w-[50vw] h-[calc(100vh-4rem)] flex flex-col items-center justify-center overflow-y-auto h-screen">
+        <CardBody className="bg-gradient-to-r from-gray-100 via-gray-200 to-white bg-opacity-50 backdrop-blur-2xl shadow-2xl rounded-lg p-6 text-gray-800 max-w-[90vw] sm:max-w-[50vw] h-[calc(100vh-4rem)] flex flex-col items-center justify-center overflow-y-auto h-screen relative">
+          {/* CanvasRevealEffect Wrapper - Only show when the section is in view */}
+          {isInView && (
+            <CanvasRevealEffect
+              animationSpeed={1.5} // Adjust the speed of the effect
+              containerClassName="absolute inset-0"
+              colors={[
+                [173, 216, 230], // Light blue
+                [240, 248, 255], // Alice blue
+                [176, 224, 230], // Powder blue
+              ]}
+              dotSize={6} // Increased dot size to make pixels bigger
+              showGradient={false} // Set this to false for no gradient effect
+            />
+          )}
+
           {/* Center the image and peace sign */}
           <CardItem className="flex flex-col items-center justify-center mb-6">
             <motion.div
