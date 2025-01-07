@@ -2,6 +2,7 @@ import recipeAppImg from "@/public/recipeApp.png";
 import boredomBuddyImg from "@/public/boredombuddy.png";
 import navinewsImg from "@/public/navinews.png";
 import novaImg from "@/public/nova.png";
+import miniapptrakImg from "@/public/miniapptrak.png"
 
 export const links = [
   {
@@ -33,12 +34,20 @@ export const links = [
 
 export const projectsData = [
   {
+    title: "Mini-AppTrak",
+    description:
+      "A localized way to track applications using JSON to persist data. This project serves as a precursor to a full-stack application currently being developed with Auth. and MySQL",
+    tags: ["Go", "JSON", "I/O", "Synchronization"],
+    imageUrl: miniapptrakImg,
+    githubUrl: "https://github.com/JalalA984/mini-apptrak"
+  },
+  {
     title: "DevHorizonNova",
     description:
       "A RAG-powered chatbot built for tech enthusiasts, providing insights into tech stacks, companies, and required technical skills, empowering users to achieve their career goals.",
     tags: ["LangChain", "OpenAI", "GoogleGemini", "AstraDB", "Next.js"],
     imageUrl: novaImg,
-    githubUrl: "https://github.com/JalalA984/rag-chatbot"
+    githubUrl: "https://devhorizonnova.onrender.com/"
   },
   {
     title: "NaviNews",
@@ -64,7 +73,6 @@ export const projectsData = [
     imageUrl: boredomBuddyImg,
     githubUrl: "https://boredombuddyv2.onrender.com/"
   },
-
 ] as const;
 
 export const skillsData = [
