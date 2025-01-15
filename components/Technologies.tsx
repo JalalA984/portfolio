@@ -26,6 +26,7 @@ function Technologies({}: Props) {
         </div>
         
       </motion.div>
+      
 
     </div>
   );

@@ -146,14 +146,19 @@ export const techData = [
   },
   {
     name: "Spring",
-    percentage: "10%",
+    percentage: "20%",
     imageUrl: "  https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg",
   },
   {
     name: "Flutter",
-    percentage: "5%",
+    percentage: "10%",
     imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg",
-  },   
+  },
+  {
+    name: "Firebase",
+    percentage: "10%",
+    imageUrl: "https://www.gstatic.com/devrel-devsite/prod/vec94db9b1329e6c4d1d9b6b24ba16ad6c02043dcd66ba9c6a8f3d8fa0af3eec7/firebase/images/touchicon-180.png",
+  },
 ] as const;
 
 export const coursesData = [
