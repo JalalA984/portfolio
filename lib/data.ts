@@ -3,6 +3,8 @@ import boredomBuddyImg from "@/public/boredombuddy.png";
 import navinewsImg from "@/public/navinews.png";
 import novaImg from "@/public/nova.png";
 import miniapptrakImg from "@/public/miniapptrak.png"
+import activePalsImg from "@/public/activepals.png"
+import apptrakImg from "@/public/apptrak.png"
 
 export const links = [
   {
@@ -33,6 +35,22 @@ export const links = [
 
 
 export const projectsData = [
+  {
+    title: "AppTrak (Current)",
+    description:
+      "Web app powered by Go and SQL, with a focus on security, allowing users to effortlessly manage and track their applications.",
+    tags: ["Go", "MySQL", "Session Management", "TLS Certificate", "HTTPS", "Unit Testing"],
+    imageUrl: apptrakImg,
+    githubUrl: "https://github.com/JalalA984/apptrak"
+  },
+  {
+    title: "ActivePals",
+    description:
+      "Mobile app allows community of users to share detailed exercise preferences so that alternating instructors have a centralized method to facilitate group workouts.",
+    tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Firebase Hosting"],
+    imageUrl: activePalsImg,
+    githubUrl: "https://activepals-2025.web.app/"
+  },
   {
     title: "Mini-AppTrak",
     description:

@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Technologies from "@/components/Technologies";
 import Header from "@/components/Header";
 import { IconCloudDemo } from "@/components/IconCloudDemo";
+import LoadComponent from "@/components/LoadComponent";
 
 const SplineHero = dynamic(
   () => import("../components/SplineHero.tsx").then((mod) => mod.default),
@@ -31,6 +32,7 @@ export default function Home() {
         <SplineHero />
         <section className="flex flex-col justify-center items-center mx-auto my-auto">
           <div className="flex flex-col justify-center items-center text-center">
+            <LoadComponent/>
             <Intro />
             <SectionDivider />
             <About />
