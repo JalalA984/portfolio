@@ -5,6 +5,7 @@ import novaImg from "@/public/nova.png";
 import miniapptrakImg from "@/public/miniapptrak.png"
 import activePalsImg from "@/public/activepals.png"
 import apptrakImg from "@/public/apptrak.png"
+import ecommerceImg from "@/public/ecommerce.png"
 
 export const links = [
   {
@@ -50,6 +51,14 @@ export const projectsData = [
     tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Firebase Hosting"],
     imageUrl: activePalsImg,
     githubUrl: "https://activepals-2025.web.app/"
+  },
+  {
+    title: "E-commerce Backend",
+    description:
+      "A simple REST API backend for e-commerce app with Spring Security being implemented.",
+    tags: ["Spring Boot", "Spring Web", "JPA", "H2", "Spring Security"],
+    imageUrl: ecommerceImg,
+    githubUrl: "https://github.com/JalalA984/ecommerce-backend"
   },
   {
     title: "Mini-AppTrak",
