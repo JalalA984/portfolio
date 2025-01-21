@@ -6,6 +6,7 @@ import miniapptrakImg from "@/public/miniapptrak.png"
 import activePalsImg from "@/public/activepals.png"
 import apptrakImg from "@/public/apptrak.png"
 import ecommerceImg from "@/public/ecommerce.png"
+import codeguardianImg from "@/public/codeguardian.png"
 
 export const links = [
   {
@@ -37,7 +38,7 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "AppTrak (Current)",
+    title: "AppTrak (In Dev.)",
     description:
       "Web app powered by Go and SQL, with a focus on security, allowing users to effortlessly manage and track their applications.",
     tags: ["Go", "MySQL", "Session Management", "TLS Certificate", "HTTPS", "Unit Testing"],
@@ -45,12 +46,12 @@ export const projectsData = [
     githubUrl: "https://github.com/JalalA984/apptrak"
   },
   {
-    title: "ActivePals",
+    title: "CodeGuardian (In Dev.)",
     description:
-      "Mobile app allows community of users to share detailed exercise preferences so that alternating instructors have a centralized method to facilitate group workouts.",
-    tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Firebase Hosting"],
-    imageUrl: activePalsImg,
-    githubUrl: "https://activepals-2025.web.app/"
+      "Integrates AI models, ML, and Cybersecurity principles to help developers write more secure code by identifying security risks and providing code insights.",
+    tags: ["Go", "PostgreSQL", "Redis", "React", "PyTorch", "Docker"],
+    imageUrl: codeguardianImg,
+    githubUrl: "https://github.com/JalalA984/codeguardian"
   },
   {
     title: "E-commerce Backend",
@@ -59,6 +60,14 @@ export const projectsData = [
     tags: ["Spring Boot", "Spring Web", "JPA", "H2", "Spring Security"],
     imageUrl: ecommerceImg,
     githubUrl: "https://github.com/JalalA984/ecommerce-backend"
+  },
+  {
+    title: "ActivePals",
+    description:
+      "Mobile app allows community of users to share detailed exercise preferences so that alternating instructors have a centralized method to facilitate group workouts.",
+    tags: ["Flutter", "Dart", "Firebase Auth", "Cloud Firestore", "Firebase Hosting"],
+    imageUrl: activePalsImg,
+    githubUrl: "https://activepals-2025.web.app/"
   },
   {
     title: "Mini-AppTrak",

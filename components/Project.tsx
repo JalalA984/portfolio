@@ -50,26 +50,35 @@ export default function Project({
         </div>
 
         <a href={githubUrl} target="_blank">
-        <Image
-          src={imageUrl}
-          alt="Project I worked on"
-          quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+          <Image
+            src={imageUrl}
+            alt="Project I worked on"
+            quality={95}
+            className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+              transition 
+              group-hover:scale-[1.04]
+              group-hover:-translate-x-3
+              group-hover:translate-y-3
+              group-hover:-rotate-2
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+              group-even:group-hover:translate-x-3
+              group-even:group-hover:translate-y-3
+              group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
-        />
+              group-even:right-[initial] group-even:-left-40"
+          />
+        </a>
+        
+        {/* Mobile image */}
+        <a href={githubUrl} target="_blank" className="sm:hidden mt-4 block">
+          <Image
+            src={imageUrl}
+            alt="Project I worked on"
+            quality={95}
+            className="w-full h-auto rounded-lg shadow-md"
+          />
         </a>
       </section>
-      </motion.div>
-    )
-  }
-  
+    </motion.div>
+  )
+}
