@@ -9,7 +9,7 @@ export default function About() {
     <div className="relative w-full flex justify-center mb-28 scroll-m-28" id="about">
       <div className="w-full relative max-w-[45rem]">
         {/* Glassmorphism Background with More Subtle Gradient */}
-        <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-100 to-teal-100 transform scale-[0.85] rounded-full blur-3xl" />
+        <div className="absolute inset-0 h-full w-full bg-gradient-to- transform scale-[0.85] rounded-full blur-3xl" />
         <div
           className="relative shadow-lg backdrop-blur-lg bg-white/10 border border-white/20 px-6 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-start items-start"
           style={{
@@ -68,13 +68,13 @@ export default function About() {
               is exploring various programming languages and software technologies. My
               current core stack includes{" "}
               <span className="font-medium text-black">
-                Java, Node.js, Python, and MongoDB
+                Java, Node.js, Python, and PostgreSQL
               </span>
               . I am always eager to{" "}
               <span className="underline">test my limits</span> and tackle
               challenging tasks. I am currently developing my experience in{" "}
               <span className="font-medium text-black">
-                Go/Java Microservices, AI Development, and Networking + Computer Security
+                Cloud Computing/Microservices, Deep Learning, and HPC
               </span>
               .
             </p>
@@ -89,7 +89,7 @@ export default function About() {
           {/* Meteor Effect */}
           <Meteors
             number={20}
-            className="bg-blue-500 before:from-blue-500 shadow-[0_0_0_1px_#00000010]"
+            className="bg-green-500 before:from-green-500 shadow-[0_0_0_1px_#00000010]"
           />
         </div>
       </div>

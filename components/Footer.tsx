@@ -16,7 +16,7 @@ export default function Footer() {
       />
       </Link>
       <small className="mb-2 block text-xs">
-        &copy; 2024-2025 Jalal Ahmad. All rights reserved
+        &copy; 2025 Jalal Ahmad. All rights reserved
       </small>
       <p className="text-xs">
         <span className="font-semibold">Website built with: </span>React &
