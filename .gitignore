@@ -35,3 +35,5 @@ yarn-error.log*
 next-env.d.ts
 
 google50f679ae4c942a4e.html
+
+.env.local
