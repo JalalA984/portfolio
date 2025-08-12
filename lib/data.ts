@@ -18,6 +18,10 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -275,5 +279,27 @@ export const coursesData = [
     description:
       "Introduction to fundamental concepts of key modalities and algorithms for multimodal representation learning, alignment, and fusion.",
     link: "https://ruohangao.github.io/teaching/",
+  },
+] as const;
+
+
+export const experiencesData = [
+  {
+    title: "Software Engineer & Researcher - Project ANTS",
+    company: "SEAM Lab",
+    location: "UMD",
+    description: "Worked in a team of 9 including Dr. James Purtilo, Dr. Evan Economo, and Dr. Xiaomin Lin to develop an AI powered tool to help automate locating joint locations in 3D insect CAD models.",
+    date: "January 2025 - May 2025",
+    skills: ["PyTorch & Python", "Blender", "DeepLabCut", "Computer Vision"],
+    url: "https://expo.umd.edu/projects/spring-2025/project-ants",
+  },
+  {
+    title: "Software Engineer",
+    company: "Sustainabli",
+    location: "Baltimore, MD",
+    description: "Worked in a team of 6 to develop a set of new features for our SAAS platform. Focused on UX/UI, backend email services, and statistical analysis of user data.",
+    date: "May 2025 - Present",
+    skills: ["React.js", "PostgreSQL", "AWS", "Rust"],
+    url: "https://www.gosustainabli.com/",
   },
 ] as const;

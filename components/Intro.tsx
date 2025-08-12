@@ -6,7 +6,6 @@ import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { SiGmail } from "react-icons/si";
 import { CardContainer, CardBody, CardItem } from "./ui/3d-card";
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 
 export default function Intro() {
   const sectionRef = useRef(null);
@@ -50,21 +49,6 @@ export default function Intro() {
             {/* Glass background now inside the card body */}
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r transform scale-[0.85] rounded-full blur-3xl" />
             <div className="absolute inset-0 backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl" />
-
-            {/* CanvasRevealEffect with transparent background */}
-            {isInView && (
-              <CanvasRevealEffect
-                animationSpeed={1.5}
-                containerClassName="absolute inset-0 bg-transparent" // Added bg-transparent
-                colors={[
-                  [1, 50, 32, 0.2], // Added alpha channel
-                  [0, 255, 65, 0.2],
-                  [0, 143, 17, 0.2],
-                ]}
-                dotSize={1}
-                showGradient={false}
-              />
-            )}
 
 
             {/* Center the image and peace sign */}

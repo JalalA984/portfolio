@@ -25,6 +25,8 @@ export default function Header() {
         return <HomeIcon className="h-5 w-5" />;
       case "About":
         return <UserIcon className="h-5 w-5" />;
+      case "Experience":
+        return <BriefcaseIcon className="h-5 w-5" />;
       case "Projects":
         return <BriefcaseIcon className="h-5 w-5" />;
       case "Skills":

@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import Coursework from "@/components/Coursework";
 import Footer from "@/components/Footer";
 import Technologies from "@/components/Technologies";
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import { IconCloudDemo } from "@/components/IconCloudDemo";
 import LoadComponent from "@/components/LoadComponent";
@@ -36,6 +37,7 @@ export default function Home() {
             <Intro />
             <SectionDivider />
             <About />
+            <Experience />
             <Projects />
             <Skills />
     
