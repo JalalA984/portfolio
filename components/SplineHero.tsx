@@ -4,8 +4,8 @@
 import Spline from "@splinetool/react-spline/next";
 import "../app/globals.css";
 
-// Spline design credits due to @mkhtr7
-// https://app.spline.design/@mkhtr7
+// Spline design credits due to @DesignGabor
+// https://app.spline.design/@DesignGabor
 
 
 export default function SplineHero() {
