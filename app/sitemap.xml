@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://jalalahmad.vercel.app/</loc>
-	<lastmod>2024-09-25T20:23:05+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://jalalahmad.vercel.app/resume_jalal.pdf</loc>
-	<lastmod>2024-09-25T20:23:05+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
+<!-- 	created with www.mysitemapgenerator.com	 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://jalalahmad.vercel.app/</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/about</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/experience</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/projects</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/skills</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/coursework</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://jalalahmad.vercel.app/contact</loc>
+		<lastmod>2026-01-16T02:52:19+01:00</lastmod>
+		<priority>1.0</priority>
+	</url>
 </urlset>
