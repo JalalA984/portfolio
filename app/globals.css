@@ -116,3 +116,16 @@ html {
       transform: scale(0.7); /* Even smaller for extra small mobile screens */
     }
   }
+
+  /* Strolling cat for /hidden/km */
+  @keyframes cat-stroll {
+    0%   { left: -18%; }
+    100% { left: 105%; }
+  }
+
+  .cat-stroll {
+    position: absolute;
+    bottom: 0;
+    white-space: pre;
+    animation: cat-stroll 9s linear infinite;
+  }

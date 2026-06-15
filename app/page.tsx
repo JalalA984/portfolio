@@ -77,16 +77,6 @@ export default function Home() {
               ( DEV_PORTFOLIO )
             </p>
           </div>
-
-          {/* Top Right: Status / Location */}
-          <div className="text-right pointer-events-auto">
-            <p className="text-[10px] font-mono text-gray-500 uppercase tracking-widest">
-              Based in Maryland
-            </p>
-            <p className="text-[10px] font-mono text-gray-500 uppercase tracking-widest mt-1">
-              Available for 2026
-            </p>
-          </div>
         </header>
 
         {/* --- CENTER: Loading State (If needed) --- */}

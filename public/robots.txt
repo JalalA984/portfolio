@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /hidden/
 
 Sitemap: https://jalalahmad.vercel.app/sitemap.xml

@@ -390,9 +390,24 @@ export const experiencesData = [
     location: "College Park, MD",
     description:
       "Early stage startup, developing a platform integrated with Canvas LMS to combat the growing student mental health crisis by visualizing academic workload and promoting proactive burnout prevention.",
-    date: "November 2025 - Present",
+    date: "November 2025 - ???",
     skills: ["Typescript", "Canvas LMS API", "Chrome APIs"],
     url: "",
+  },
+  {
+    title: "Machine Learning Systems Researcher",
+    company: "FROOT Systems Lab",
+    location: "College Park, MD",
+    description:
+      "Benchmarked Deep Model Inspector (DMI), a PhD-led asynchronous GPU-CPU tensor-observability framework, against vLLM's Extract Hidden States feature on Qwen3-4B/A100.",
+    date: "April 2026 - May 2026",
+    skills: [
+      "vLLM",
+      "Python",
+      "HuggingFace",
+      "Bash Scripting",
+    ],
+    url: "https://github.com/ProjectDMX/DMI",
   },
   {
     title: "Software Engineer",
