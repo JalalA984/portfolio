@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import KmTerminal from "./KmTerminal";
+import BracesStudio from "./BracesStudio";
 
 export const metadata: Metadata = {
-  title: "Access Denied",
+  title: "Mahdi's Brace Place",
   robots: { index: false, follow: false },
 };
 
 export default function HiddenKmPage() {
-  return <KmTerminal />;
+  return <BracesStudio />;
 }
